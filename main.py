@@ -4,9 +4,9 @@
 from tkinter import *
 from tkinter import ttk
 import sqlite3
-from ReadStudentAccounts import *
-from ReadTeacherAccounts import *
-from ViewUpdateExams import *
+from src.ReadStudentAccounts import *
+from src.ReadTeacherAccounts import *
+from src.ViewUpdateExams import *
 
 list_of_subjects = ["English", "Math", "Chinese", "Science"]
 list_of_exams = ["CA1", "SA1", "CA2", "SA2"]
